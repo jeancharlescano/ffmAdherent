@@ -1,0 +1,27 @@
+{
+  "name": "fighter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeancharlescano/fighter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeancharlescano/fighter/issues"
+  },
+  "homepage": "https://github.com/jeancharlescano/fighter#readme",
+  "dependencies": {
+    "cli-table": "^0.3.6",
+    "mysql": "^2.18.1",
+    "pg": "^8.6.0",
+    "prompts": "^2.4.1"
+  }
+}
